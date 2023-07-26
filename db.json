@@ -1,28 +1,97 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        },
-        {
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        }
-    ],
-    "address": [
-        {
-            "userId": 1,
-            "street": "via Milano 30",
-            "city": "Ivrea",
-            "postalCode": "10182"
-        },
-        {
-            "userId": 2,
-            "street": "via Verona 110",
-            "city": "Mantova",
-            "postalCode": "23100"
-        }        
-    ]
+    "meta": {
+        "api_version": "1.0",
+        "timestamp": "2023-07-26T12:34:56Z",
+        "author": "ChatGPT"
+    },
+    "data": {
+        "users": [
+            {
+                "user_id": 1,
+                "username": "john_doe",
+                "email": "john.doe@example.com",
+                "age": 32,
+                "is_active": true,
+                "avatar": "https://placehold.co/600x400",
+                "address": {
+                    "street": "123 Main Street",
+                    "city": "New York",
+                    "zip_code": "10001",
+                    "country": "USA"
+                },
+                "orders": [
+                    {
+                        "order_id": "ORD123456789",
+                        "date": "2023-07-25T15:30:00Z",
+                        "total_amount": 125.75,
+                        "items": [
+                            {
+                                "item_id": 101,
+                                "name": "Widget A",
+                                "quantity": 2,
+                                "price": 25.5
+                            },
+                            {
+                                "item_id": 102,
+                                "name": "Widget B",
+                                "quantity": 3,
+                                "price": 15.25
+                            }
+                        ]
+                    },
+                    {
+                        "order_id": "ORD987654321",
+                        "date": "2023-07-26T10:15:00Z",
+                        "total_amount": 45.0,
+                        "items": [
+                            {
+                                "item_id": 201,
+                                "name": "Gadget X",
+                                "quantity": 1,
+                                "price": 45.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "user_id": 2,
+                "username": "jane_smith",
+                "email": "jane.smith@example.com",
+                "age": 28,
+                "is_active": false,
+                "avatar": "https://placehold.co/600x400",
+                "address": {
+                    "street": "456 Elm Street",
+                    "city": "Los Angeles",
+                    "zip_code": "90001",
+                    "country": "USA"
+                },
+                "orders": []
+            }
+        ],
+        "products": [
+            {
+                "product_id": 101,
+                "name": "Widget A",
+                "description": "A high-quality widget with advanced features.",
+                "price": 25.5,
+                "stock": 100
+            },
+            {
+                "product_id": 102,
+                "name": "Widget B",
+                "description": "A versatile widget for everyday use.",
+                "price": 15.25,
+                "stock": 50
+            },
+            {
+                "product_id": 201,
+                "name": "Gadget X",
+                "description": "An innovative gadget for tech enthusiasts.",
+                "price": 45.0,
+                "stock": 20
+            }
+        ]
+    }
 }
