@@ -10,7 +10,7 @@
                 "user_id": 1,
                 "username": "john_doe",
                 "email": "john.doe@example.com",
-                "age": 32,
+                "age": 35,
                 "is_active": true,
                 "avatar": "https://placehold.co/600x400",
                 "address": {
