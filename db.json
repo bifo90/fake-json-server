@@ -8,8 +8,8 @@
         "users": [
             {
                 "user_id": 1,
-                "username": "stebifo",
-                "email": "bifo90@hotmail.it",
+                "username": "bifo90",
+                "email": "stefanobifolco@gmail.com",
                 "age": 35,
                 "is_active": true,
                 "avatar": "https://placehold.co/600x400",
