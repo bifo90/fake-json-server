@@ -8,7 +8,7 @@
         "users": [
             {
                 "user_id": 1,
-                "username": "john_doe",
+                "username": "bifo90",
                 "email": "stefanobifolco@gmail.com",
                 "age": 35,
                 "is_active": true,
